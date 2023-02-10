@@ -5,8 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
+
 export class HomeComponent implements OnInit {
   public name = 'NguyenTuan';
+  public age = 25;
 
   constructor() { }
 
